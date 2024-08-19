@@ -52,4 +52,9 @@ public class Animal {
     public int hashCode() {
         return Objects.hash(weight, height);
     }
+
+    @Override
+    public Animal clone() throws CloneNotSupportedException {
+        return (Animal) super.clone();
+    }
 }
