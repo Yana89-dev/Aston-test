@@ -2,7 +2,7 @@ package lessons;
 
 import java.util.Objects;
 
-public class Animal {
+public class Animal implements Cloneable{
     private int weight;
     private int height;
 

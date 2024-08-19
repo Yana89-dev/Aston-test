@@ -21,7 +21,9 @@ public class AnimalDemo {
 
         Animal animalClone = animal.clone();
 
-       // Cat catClone = (Animal)cat1.clone();
+        System.out.println(animalClone.toString());
+
+      //  Cat catClone = cat1.clone();
 
         final int num = 22;
        // num = 44; не получится поменять
